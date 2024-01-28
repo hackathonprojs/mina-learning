@@ -24,8 +24,8 @@ zk deploy
 ## How to run
 
 ```sh
-pm run build && node build/src/newinteract.js
-pm run build && node build/src/newinteract2.js
+npm run build && node build/src/newinteract.js
+npm run build && node build/src/newinteract2.js
 ```
 
 
