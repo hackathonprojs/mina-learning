@@ -8,18 +8,22 @@ This template uses TypeScript.
 npm run build
 ```
 
-## How to run tests
+## how to setup
+install zkapp-cli
 
 ```sh
-npm run test
-npm run testw # watch mode
+zk config
+zk deploy
 ```
 
-## How to run coverage
+## How to run
 
 ```sh
-npm run coverage
+pm run build && node build/src/newinteract.js
+pm run build && node build/src/newinteract2.js
 ```
+
+
 
 ## License
 
